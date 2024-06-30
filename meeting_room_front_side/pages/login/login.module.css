@@ -1,0 +1,64 @@
+.grid_container {
+    background-image: var(--primary-gradient);
+    width: 100vw;
+    height: 10vh;
+    display: grid;
+    gap: 0 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 90%;
+    grid-template-areas: "HEADER" "Container";
+    height: 100%;
+}
+
+.header {
+    grid-area: HEADER;
+}
+
+.Container {
+    grid-area: Container;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    margin-top: 8%;
+    height: 40%;
+    min-height: 245px;
+    background-color: var(--primary-color);
+    padding: 55px 120px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+}
+
+.form input {
+    margin: 1%;
+    font-size: 16px;
+    height: 1.3em;
+    margin-left: 7px;
+    padding: 2%;
+    outline: none;
+    border: .5px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.form button {
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    margin: 10% 21% 0 21%;
+    padding: 6% 25% 6% 25%;
+    background-color: rgb(86, 125, 233);
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    transition: all 0.15s ease-in;
+}
+
+.form button:hover {
+    background-color: var( --Header-color);
+}

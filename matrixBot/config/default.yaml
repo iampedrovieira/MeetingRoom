@@ -1,0 +1,18 @@
+# Where the homeserver's Client-Server API is located. Typically this
+# is where clients would be connecting to in order to send messages.
+homeserverUrl: "https://matrix.iampedrovieira.pt"
+
+pantalaimon:
+    use: false
+    username: "bot_2:iampedrovieira.pt"
+    password: "N9*#oFzqQWERR"
+
+# An access token for the bot to use. Learn how to get an access token
+# at https://t2bot.io/docs/access_tokens
+accessToken: "MDAxZmxvY2F0aW9uIGlhbXBlZHJvdmllaXJhLnB0CjAwMTNpZGVudGlmaWVyIGtleQowMDEwY2lkIGdlbiA9IDEKMDAyYmNpZCB1c2VyX2lkID0gQGJvdF8yOmlhbXBlZHJvdmllaXJhLnB0CjAwMTZjaWQgdHlwZSA9IGFjY2VzcwowMDIxY2lkIG5vbmNlID0gNTZ2ekw2LStBcmZtU0ptaAowMDJmc2lnbmF0dXJlIL-h1mf16cJuXYxApOwfr39GCaJxuMpIYQNKTl2rqlCdCg"
+# Whether or not to autojoin rooms when invited.
+autoJoin: true
+
+# Location on disk for where to store various bot information.
+dataPath: "storage"
+

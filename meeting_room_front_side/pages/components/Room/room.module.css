@@ -1,0 +1,15 @@
+.room {
+  background-color: var(--primary-background-color);
+  border: 1px solid #333;
+  border-radius: 9px;
+  cursor: pointer;
+  font-family: 'Monserrat', sans-serif;
+  font-weight: normal;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+  padding: 5px 5px 5px 10px;
+  transition: all 0.1s ease-in;
+}
+.room:hover { 
+  background-color: var(--secondary-background-color);
+}

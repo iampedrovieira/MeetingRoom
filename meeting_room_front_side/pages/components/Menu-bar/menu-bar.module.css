@@ -1,0 +1,46 @@
+.side-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-background-color);
+    height: 100%;
+}
+
+.div_btn,
+.div_btn_selected {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2% 2% 0% 2%;
+    padding-left: 10%;
+    border-radius: 8px;
+    font-size: 18px;
+    height: 2.6em;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: .6px;
+    -webkit-transition: all 0.1s ease-in;
+    transition: opacity 0.1s ease-in;
+}
+
+.div_btn {
+    color: var(--primary-color);
+    background-color: var(--secondary-background-color);
+}
+
+.div_btn_selected {
+    color: var(--primary-background-color);
+    background-color: var(--secundary-color);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.div_btn a,
+.div_btn_selected a {
+    margin-left: 10%;
+}
+
+.div_btn:hover,
+.div_btn_selected:hover {
+    opacity: 70%;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+}
