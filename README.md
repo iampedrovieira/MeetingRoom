@@ -29,10 +29,10 @@ The main goal was to develop a web platform for booking room reservations and to
 
 ### User Interface
 
-![User Interface](images/user-interface-1.png)
+![User Interface](images/User-interface-1.png)
 *Figure 1: Screenshot of the User Interface.*
 
-![User Interface](images/user-interface-2.png)
+![User Interface](images/User-interface-2.png)
 *Figure 2: Screenshot of the User Interface.*
 
 ### System Architecture
