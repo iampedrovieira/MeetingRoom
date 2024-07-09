@@ -16,7 +16,7 @@ The main goal was to develop a web platform for booking room reservations and to
 
 ## Technologies Used
 
-- **Front-end**: HTML, CSS, JavaScript
+- **Front-end**: HTML, CSS, TypeScript, Nextjs
 - **Back-end**: Node.js, Express.js, Python, Flask
 - **Database**: PostgreSQL
 - **Communication Architecture**: Matrix
